@@ -94,10 +94,7 @@ body > .container{
     color: #fff;
     position: relative;
 }
-.sidebar__item:hover{
-    background-color: #fff;
-    color: #333;
-}
+
 .sidebar__icon{
     width: 3.3rem;
     height: 100%;
@@ -116,6 +113,14 @@ body > .container{
     opacity: 0;
     transform: translateX(10rem);
     color: #fff;
+}
+
+.sidebar__item:hover{
+    background-color: #fff;
+    color: #333;
+}
+.sidebar__item:hover .sidebar__link{
+    color: #333;
 }
 .sidebar--open{
     width: 16.8rem;
