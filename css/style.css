@@ -114,7 +114,8 @@ body > .container{
     text-align: center;
     transition: all .25s ease-out;
     opacity: 0;
-    transform: translateX(10rem)
+    transform: translateX(10rem);
+    color: #fff;
 }
 .sidebar--open{
     width: 16.8rem;
